@@ -1,0 +1,14 @@
+/* === Lato - 900 */
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	src: url("./font/Lato-Black.eot");
+	src: local("Lato Black"),
+		local("Lato-Black"),
+		url("./font/Lato-Black.eot") format("embedded-opentype"),
+		url("./font/Lato-Black.woff2") format("woff2"),
+		url("./font/Lato-Black.woff") format("woff"),
+		url("./font/Lato-Black.ttf") format("truetype"),
+		url("./font/Lato-Black.svg") format("svg");
+}
