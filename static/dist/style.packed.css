@@ -450,26 +450,26 @@ template {
   color: #fff;
   text-align: center; }
 
-.container {
+.containr {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container {
+    .containr {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container {
+    .containr {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container {
+    .containr {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container {
+    .containr {
       max-width: 1140px; } }
 
-.container-fluid {
+.containr-fluid {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1188,7 +1188,7 @@ h1 {
       .navbar-nav a:hover {
         background: #333; } }
 
-.container-fluid {
+.containr-fluid {
   width: 95%;
   max-width: 1500px; }
 

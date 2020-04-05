@@ -1,0 +1,191 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="../static/dist/fonts.css">
+<!--<link rel="stylesheet" href="../static/bootstrap.css">-->
+<link rel="stylesheet" href="../static/dist/style.packed.css">
+<!--<link rel="stylesheet" href="../static/home.css">-->
+
+<!--<script src="../static/jquery-3.2.1.min.js"></script>-->
+<!--<script src="../static/bootstrap.min.js"></script>-->
+
+<script src="../static/dist/main.packed.js"></script>
+
+
+
+<title>Download — Georg Rauber</title>
+
+
+  
+
+
+
+<body class="page download">
+  <header style="background-image:url(../download/headerbg.jpg); background-position:center;">
+    <nav class="navbar navbar-expand" role="navigation">
+        <div class="navbar-header">
+          <button class="navbar-toggle" id="navbarDropdown" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <div class="bars">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </div>
+          </button>
+        </div>
+        <div id="navbar" aria-labelledby="navbarDropdown" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../">Willkommen</a></li>
+            
+              <li><a href="../aktuelles/">Aktuelles</a></li>
+            
+              <li><a href="../schauspiel/">Schauspiel</a></li>
+            
+              <li><a href="../schreiben/">Schreiben</a></li>
+            
+              <li class="active"><a href="../download/">Download</a></li>
+            
+              <li><a href="../kontakt/">Kontakt</a></li>
+            
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="header-content">
+      
+      <div class="containr-fluid">
+        <div class="header-text">
+          <div class="header-sitedesc">
+            <h1>Georg Rauber</h1>
+            <div class="subline">Schauspieler & Autor</div>
+          </div>
+          <div class="header-pagedesc">
+            <h2>Download</h2>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+  <div class="site-wrapper">
+    <div class="content">
+      
+  <div class="containr-fluid">
+
+    <h1>Georg und seine Freunde (2020)</h1>
+<p>Layout und Buchgestaltung by: <a href="https://www.rosannastark.com/">Rosanna Stark</a>.</p>
+<style>
+#book {
+  width: 100%;
+  background: #f0f0f0;
+  height: auto;
+  padding: 10px;
+}
+.flipbook {
+  width: 100%;
+  margin-bottom: 3em;
+}
+.viewport {
+  height: 80vh !important;
+}
+.flipbook .bounding-box {
+    box-shadow: rgba(0,0,0,.3) 0 4px 10px;
+}
+.flipbook .btn {
+  display: flex;
+  align-items: center;
+  border: 2px solid #bc7e8b;
+  fill: #bc7e8b;
+  color: #bc7e8b;
+  cursor: pointer;
+  padding: .8em 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.flipbook .btn:hover {
+  background: #bc7e8b;
+  fill: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.flipbook .btn svg {
+  height: 1.8em;
+}
+.toolbar {
+  margin-bottom: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style><div id="book">
+<template>
+  <flipbook class="flipbook" :pages="pages" :zooms="[1]" v-slot="flipbook" ref="flipbook">
+    <div class="toolbar">
+      <a
+        class="btn"
+        :class="{ disabled: !flipbook.canFlipLeft }"
+        @click="flipbook.flipLeft">
+        <svg viewBox="0 0 48 48" height="48" width="48">
+          <g transform="translate(0,-1043.25)">
+            <path
+               d="m 21.672362,1055.581 c 14.147693,-0.219 26.454157,10.6682 22.595753,28.5835 -6.02493,-16.9732 -22.595753,-15.5895 -22.595753,-15.5895 v 4.821 L 2.4738716,1062.3573 21.672362,1051.3635 Z"
+               style="fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+        </svg>
+      </a>
+      <a class="btn" href="GeorgUndSeineFreunde/GeorgUndSeineFreunde_Final.pdf">
+        Download PDF
+      </a>
+      <a
+        class="btn"
+        :class="{ disabled: !flipbook.canFlipRight }"
+        @click="flipbook.flipRight">
+        <svg viewBox="0 0 48 48" height="48" width="48">
+          <g transform="translate(0,-1043.25)" >
+            <path d="m 26.144004,1055.9381 c -14.147693,-0.219 -26.45415665,10.6682 -22.5957526,28.5835 6.02493,-16.9732 22.5957526,-15.5895 22.5957526,-15.5895 v 4.821 l 19.198491,-11.0387 -19.198491,-10.9938 z"
+               style="fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </flipbook>
+</template>
+
+</div><script src="vue.js"></script>
+<script src="flipbook-vue.js"></script>
+<script>
+var pages =  [null];
+for (i = 0; i <= 34; i++) {
+  pages.push('GeorgUndSeineFreunde/GeorgUndSeineFreunde-'+i+'.png');
+}
+var app = new Vue({
+  el: '#book',
+  data: {
+    pages: pages
+  }
+})
+</script>
+  </div>
+
+    </div>
+
+    <footer>
+      
+
+      <div class="copyright containr-fluid">
+        &copy; 2018 Georg Rauber &middot; <a href="../impressum/">Impressum</a>
+      </div>
+
+      
+    </footer>
+  </div>
+</body>
