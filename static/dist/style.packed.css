@@ -1398,7 +1398,7 @@ header {
 .showreel {
   width: 100%;
   max-width: 90vh; }
-  .showreel .embed-container {
+  .showreel .embed-containr {
     position: relative;
     /*padding-bottom: 56.25%; /* ratio 16x9 */
     padding-bottom: 75%;
@@ -1408,7 +1408,7 @@ header {
     max-width: 100%;
     max-height: 70vh;
     height: auto; }
-    .showreel .embed-container iframe {
+    .showreel .embed-containr iframe {
       position: absolute;
       top: 0;
       left: 0;
@@ -1420,11 +1420,11 @@ header {
       max-width: 100%; }
 
 /* ratio 4x3 */
-.embed-container.ratio4x3 {
+.embed-containr.ratio4x3 {
   padding-bottom: 66%; }
 
 @media (max-device-width: 480px) {
-  .embed-container {
+  .embed-containr {
     padding-bottom: 110%; } }
 
 .page .content {
